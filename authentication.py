@@ -30,7 +30,7 @@ def is_palindrome(s):
     return cleaned == cleaned[::-1]
 
 # Loop through each menu category
-for category_name, url in menu_urls.items(): authentication
+for category_name, url in menu_urls.items():
     print(f"Processing category: {category_name}")
 
     # Fetch the webpage content
